@@ -52,10 +52,10 @@
     "bchaddrjs": "^0.2.1",
     "bitcoinjs-lib-zcash": "^3.3.2",
     "ecurve": "^1.0.2",
+    "mycrypto-trezor-link": "1.5.1",
     "node-fetch": "^1.6.0",
     "randombytes": "^2.0.1",
     "semver-compare": "1.0.0",
-    "trezor-link": "1.3.8",
     "unorm": "^1.3.3",
     "whatwg-fetch": "0.11.0"
   },

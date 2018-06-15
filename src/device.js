@@ -12,7 +12,7 @@ import * as bitcoin from 'bitcoinjs-lib-zcash';
 
 import type DeviceList from './device-list';
 import type {Features} from './trezortypes';
-import type {Transport, TrezorDeviceInfoWithSession as DeviceDescriptor} from 'trezor-link';
+import type {Transport, TrezorDeviceInfoWithSession as DeviceDescriptor} from 'mycrypto-trezor-link';
 
 // a slight hack
 // this error string is hard-coded
@@ -698,4 +698,3 @@ function sha256x2(value: Buffer | string): Buffer {
     const realBuffer = typeof value === 'string' ? new Buffer(value, 'binary') : value;
     return bitcoin.crypto.hash256(realBuffer);
 }
-

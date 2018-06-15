@@ -16,7 +16,7 @@ import type {DeviceDescriptorDiff} from './descriptor-stream';
 import type {
     Transport,
     TrezorDeviceInfoWithSession as DeviceDescriptor,
-} from 'trezor-link';
+} from 'mycrypto-trezor-link';
 
 const CONFIG_URL = 'https://wallet.trezor.io/data/config_signed.bin';
 
@@ -156,7 +156,6 @@ export default class DeviceList extends EventEmitter {
             return '';
         }
         if (this.transport.activeName) {
-            // $FlowIssue
             const activeName: string = this.transport.activeName;
             if (activeName === 'BridgeTransport') {
                 return 'bridge';
@@ -567,4 +566,3 @@ export default class DeviceList extends EventEmitter {
 function objectValues<X>(object: {[key: string]: X}): Array<X> {
     return Object.keys(object).map(key => object[key]);
 }
-

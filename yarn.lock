@@ -1941,6 +1941,20 @@ mute-stream@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
 
+mycrypto-trezor-link@1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/mycrypto-trezor-link/-/mycrypto-trezor-link-1.5.1.tgz#1d0b13bd854022dcd9960062d04f8d9e7b4c67c0"
+  dependencies:
+    bigi "^1.4.1"
+    bitcoinjs-lib-zcash "^3.0.0"
+    ecurve "^1.0.3"
+    json-stable-stringify "^1.0.1"
+    node-fetch "^1.6.0"
+    object.values "^1.0.3"
+    protobufjs-old-fixed-webpack "3.8.5"
+    semver-compare "^1.0.0"
+    whatwg-fetch "0.11.0"
+
 nan@^2.3.0:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.6.2.tgz#e4ff34e6c95fdfb5aecc08de6596f43605a7db45"
@@ -2530,20 +2544,6 @@ tough-cookie@~2.3.0:
   resolved "https://registry.yarnpkg.com/tough-cookie/-/tough-cookie-2.3.2.tgz#f081f76e4c85720e6c37a5faced737150d84072a"
   dependencies:
     punycode "^1.4.1"
-
-trezor-link@1.3.8:
-  version "1.3.8"
-  resolved "https://registry.yarnpkg.com/trezor-link/-/trezor-link-1.3.8.tgz#ebe15759d69f6420d625d6fc949c9a9be30aed6c"
-  dependencies:
-    bigi "^1.4.1"
-    bitcoinjs-lib-zcash "^3.0.0"
-    ecurve "^1.0.3"
-    json-stable-stringify "^1.0.1"
-    node-fetch "^1.6.0"
-    object.values "^1.0.3"
-    protobufjs-old-fixed-webpack "3.8.5"
-    semver-compare "^1.0.0"
-    whatwg-fetch "0.11.0"
 
 trim-right@^1.0.1:
   version "1.0.1"
